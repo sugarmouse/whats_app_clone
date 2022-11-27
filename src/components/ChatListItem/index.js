@@ -12,11 +12,11 @@ const ChatListItem = () => {
 
       <View style={styles.content}>
         <View style={styles.row} >
-          <Text style={styles.name}>Lucas</Text>
+          <Text numberOfLines={1} style={styles.name}>Lucas</Text>
           <Text style={styles.subTitle}>8:30</Text>
         </View>
 
-        <Text style={styles.message}>Hello there</Text>
+        <Text numberOfLines={2} style={styles.subTitle}>Hello there</Text>
 
       </View>
     </View>
