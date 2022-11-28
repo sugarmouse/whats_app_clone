@@ -7,6 +7,7 @@ import {
 } from "react-native";
 import bg from "../../assets/images/BG.png";
 import Message from "../components/Message";
+import InputBox from "../components/InputBox";
 import messages from "../../assets/data/messages.json";
 
 const renderItem = (message) => {
@@ -22,6 +23,7 @@ const ChatScreen = () => {
         style={{ padding: 10 }}
         inverted
       />
+      <InputBox />
     </ImageBackground>
   );
 };
